@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=PT+Sans+Narrow&display=swap');
+
+
+:root{--cor-fundo:#F5E3FF;
+      --cor-titulo:#BF49FF;
+      --cor-paragrafo:#591280;
+      --cor-link:#7F7685;
+      --cor-aleatoria:#BFB1C7;
+      --fonte:Bebas Neue;
+      --fonte-paragrafo:Hind;
+
+}
+
+
+body {
+background-color: var(--cor-fundo);
+opacity: 0,3;
+width: 800px;
+max-width: 100%;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+
+h1 {
+color: var(--cor-titulo);
+font-family: var(--fonte);
+font-size: 50px;
+}
+ p { color: var(--cor-paragrafo);
+    font-family: var(--fonte-paragrafo);
+    font-size: 25px;
+}
+a { 
+    color: var(--cor-link);
+    font-family: var(--fonte-paragrafo);
+    font-size: 25px;
+}
+h2,h3{
+color: var(--cor-titulo) ;
+font-family: var(--fonte);
+font-size: 35px;
+}
+img{
+    text-align: center;
+    border-color:var(--cor-aleatoria);
+    border-width: 5px;
+    border-style: solid;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: #591280;
+    border-style: solid;
+    border-width: 3px;
+    font-family: var(--fonte-paragrafo);
+}
